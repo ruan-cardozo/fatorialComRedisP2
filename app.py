@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 import redis
 
+
 app = Flask(__name__)
 cache = redis.Redis()
 
